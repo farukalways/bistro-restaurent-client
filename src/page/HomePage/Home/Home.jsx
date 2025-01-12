@@ -1,12 +1,13 @@
-import Footer from "../../Sheard/Footer/Footer";
-import Navbar from "../../Sheard/Navbar/Navbar";
+import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <div className="min-h-[70vh]"></div>
-      <Footer />
+      {/* import banner component */}
+      <Banner />
+      {/* import category component */}
+      <Category />
     </div>
   );
 };
